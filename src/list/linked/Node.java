@@ -12,6 +12,11 @@ class Node<T>
         this.data = data;
     }
 
+    boolean hasData()
+    {
+        return this.data != null;
+    }
+
     boolean hasPrev()
     {
         return this.prev != null;
@@ -24,6 +29,6 @@ class Node<T>
 
     public String toString()
     {
-        return data.toString();
+        return hasData() ? data.toString() : "null";
     }
 }
