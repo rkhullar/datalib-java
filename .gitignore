@@ -214,5 +214,6 @@ fabric.properties
 # custom
 .idea
 *.iml
+local
 
 !.gitkeep
