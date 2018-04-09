@@ -1,4 +1,8 @@
 package list.linked;
 
-public class Strategy {
+public enum Strategy
+{
+    head,
+    tail,
+    curr
 }
